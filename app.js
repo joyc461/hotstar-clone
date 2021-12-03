@@ -56,3 +56,26 @@ for(let i=0; i<3; i++){
 setInterval(() =>{
     createSlide();
 },3000);
+
+
+//video-cards
+
+const videoCards = [...document.querySelectorAll('.video-card')] ;
+
+videoCards.forEach(item =>{
+    item.addEventListener('mouseover', () =>{
+        let video = item.children[1];
+        video.play();
+    })
+    item.addEventListener('mouseleave', () =>{
+        let video = item.children[1];
+        video.pause();
+    })
+})
+
+//scrollbar animation on scroll//
+
+window.addEventListener("scroll", () =>{
+    let nav = document.querySelector("nav");
+    nav.classList.toggle("sticky",window.scrollY > 0)
+})
