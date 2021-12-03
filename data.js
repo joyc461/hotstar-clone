@@ -1,8 +1,8 @@
 let movies = [
     {
-        name: 'falcon and the winter soldier',
+        name: 'Hawkeye',
         des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!',
-        image: 'images/slider 2.PNG'
+        image: 'images/slider 7.PNG'
     },
     {
         name: 'loki',
@@ -23,5 +23,15 @@ let movies = [
         name: 'luca',
         des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!',
         image: 'images/slider 5.PNG'
+    },
+    {
+        name: 'India Nudge Ahead of NZ After Day 1',
+        des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!',
+        image: 'images/slider 6.PNG'
+    },
+    {
+        name: 'falcon and the winter soldier',
+        des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!',
+        image: 'images/slider 2.PNG'
     }
 ]
