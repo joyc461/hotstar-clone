@@ -79,3 +79,8 @@ window.addEventListener("scroll", () =>{
     let nav = document.querySelector("nav");
     nav.classList.toggle("sticky",window.scrollY > 0)
 })
+
+//custom modal js//
+function toggleModal(){
+    document.getElementById("modal-1").classList.toggle("active");
+}

@@ -9,6 +9,9 @@ body {
   background: #0c111b;
   position: relative;
   font-family: roboto, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
 }
 .navbar {
   width: 100%;
@@ -310,12 +313,12 @@ nav.sticky {
 }
 
 .login-outer .container .login-inner {
-  /*position: relative;*/
+  position: relative;
   padding: 35px;
 }
 .login-outer .container .login-inner .login-inner-close img {
   color: #fff;
-  /*position: absolute;*/
+  position: absolute;
   width: 15px;
   height: 15px;
   top: 17px;
@@ -395,4 +398,32 @@ form .form-group-wrapper .form-control-wrapper {
 
 .form-group-wrapper .form-control-wrapper .form-control:focus {
   border-bottom: 2px solid #1f80e0;
+}
+/* custom modal css*/
+
+.login-outer .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(23, 23, 23, 0.5);
+  z-index: 90;
+  display: none;
+}
+.login-outer.active .overlay {
+  display: block;
+}
+.login-outer.active .container {
+  display: block;
+}
+
+.login-outer .container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  transition: all 300ms ease-in-out;
+  display: none;
 }
