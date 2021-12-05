@@ -162,6 +162,10 @@ nav.sticky {
   border-radius: 5px;
   overflow: hidden;
   background: #030b17;
+  transition: all 300ms ease-in-out;
+}
+.video-card:hover {
+  transform: scale(1.07);
 }
 .video-card-image,
 .card-video {
