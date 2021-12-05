@@ -1,0 +1,23 @@
+{
+  "name": "hotstar-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyc461/hotstar-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joyc461/hotstar-clone/issues"
+  },
+  "homepage": "https://github.com/joyc461/hotstar-clone#readme",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
