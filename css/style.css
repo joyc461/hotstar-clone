@@ -293,3 +293,107 @@ nav.sticky {
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
 }
+/* Login starts from here */
+
+.login-outer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-outer .container{
+  position: relative;
+  height: 440px;
+  width: 460px;
+  border-radius: 3px;
+  background: linear-gradient(to bottom, #192133, #111826);
+}
+
+
+.login-outer .container .login-inner{
+  position: relative;
+  padding: 35px;
+}
+.login-outer .container .login-inner .login-inner-close img{
+  color: #fff;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 17px;
+  right: 17px;
+  cursor: pointer;
+}
+
+.login-outer .container .login-inner .login-inner-heading{
+  margin: 80px 20px 50px 20px;
+  color: #fff;
+}
+
+.login-outer .container .login-inner .login-inner-heading h4{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.login-outer .container .login-inner .login-inner-fb-email{
+  margin: 0 20px 0 20px;
+}
+
+.login-outer .container .login-inner .login-inner-fb-email a{
+  text-decoration: none;
+  height: 50px;
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #1f80e0;
+  color: #1f80e0;
+  background: rgba(31,127,224,0.1);
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 15px 15px;
+  text-align: center;
+}
+
+.login-outer .container .login-inner .login-inner-or{
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 16px;
+  padding: 20px 0 30px 0;
+}
+
+form .form-group-wrapper .form-control-wrapper{
+  margin: 0 20px 0 20px;
+  position: relative;
+  height: 35px;
+  width: 350px;
+}
+
+.form-group-wrapper .form-control-wrapper span{
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  border-right: 1px solid #334366;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 8px;
+  position: absolute;
+  left: 0;
+}
+
+.form-group-wrapper .form-control-wrapper .form-control{
+  position: absolute;
+  padding-left: 48px;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  width: 100%;
+  background: none;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-bottom: 1px solid #1f80e0;
+  transition: all 300ms ease-in-out;
+}
+
+.form-group-wrapper .form-control-wrapper .form-control:focus{
+  border-bottom: 2px solid #1f80e0;
+}
