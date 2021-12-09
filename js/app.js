@@ -1,5 +1,4 @@
 //custom carousel//
-
 const carousel = document.querySelector('.carousel');
 let sliders=[];
 
